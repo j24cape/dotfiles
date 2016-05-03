@@ -22,6 +22,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Settings for plenv
 if which plenv > /dev/null; then eval "$(plenv init -)"; fi
 
+# Settings for AWS and AWS CLI
+export AWS_DEFAULT_REGION="ap-northeast-1"
+export AWS_DEFAULT_OUTPUT="json"
+
 # VANISH beer emoji in Homebrew
 export HOMEBREW_NO_EMOJI=1
 
