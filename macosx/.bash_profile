@@ -1,5 +1,5 @@
 # Add PATH
-export PATH=${HOME}/bin:/usr/local/sbin:${PATH}
+export PATH=/usr/local/sbin:${PATH}
 
 # Settings for PHPBrew
 export PHPBREW_SET_PROMPT=1
@@ -31,3 +31,6 @@ export HOMEBREW_NO_EMOJI=1
 
 # Load .bashrc
 if [ -f ${HOME}/.bashrc ]; then source ${HOME}/.bashrc; fi
+
+# Add PATH
+export PATH=${HOME}/bin:${PATH}
